@@ -150,10 +150,39 @@
             </section>
 
     </section>
-    <section id="offering" class="offering ifs-odoo-bg">
+    <div class="container my-3">
+    <!-- First Row -->
+    <div class="row " style="margin-top:20px;">
+        <div class="col-lg-6 col-md-6 col-sm-6 mb-sm-10">
+            <svg width="100%" height="372" viewBox="0 0 682 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- First Circle -->
+                <circle cx="110.183" cy="211.351" r="107.178" stroke="#FFB606" stroke-width="6.00997"/>
+                <text x="110.183" y="211.351" text-anchor="middle" alignment-baseline="middle" font-size="20" fill="#001844" font-weight="bold">Consult</text>
+
+                <!-- Second Circle -->
+                <path d="M540.897 220.366C540.897 280.137 492.886 328.545 433.719 328.545C374.552 328.545 326.542 280.137 326.542 220.366C326.542 160.594 374.552 112.186 433.719 112.186C492.886 112.186 540.897 160.594 540.897 220.366Z" stroke="#313861" stroke-width="6.00997"/>
+                <text x="433.719" y="220.366" text-anchor="middle" alignment-baseline="middle" font-size="20" fill="#001844" font-weight="bold">Ideate</text>
+
+                <!-- Third Circle -->
+                <circle cx="570.947" cy="110.183" r="110.183" fill="#FFC420"/>
+                <text x="570.947" y="110.183" text-anchor="middle" alignment-baseline="middle" font-size="20" fill="#001844" font-weight="bold">Implement</text>
+
+                <!-- Fourth Circle -->
+                <circle cx="261.935" cy="151.752" r="110.684" fill="#001844"/>
+                <text x="261.935" y="151.752" text-anchor="middle" alignment-baseline="middle" font-size="20" fill="white" font-weight="bold">Support</text>
+            </svg>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 d-flex flex-column align-items-end">
+            <img src="assets/h-img.png" alt="h_img " class="img-fluid" style="width:100%;height:500px;">
+        </div>
+    </div>
+</div>
+
+
+    <section id="Portfolio">
         <div class="row py-2">
             <div class="section-title">
-                <h1 class="text-center text-uppercase">Our <span class="yellow-font">Portfolio</span></h1>
+                <h1 class="text-center text-uppercase content-1"style="color:#001844">Our <span class="yellow-font" style="color:#FFC420;" >Portfolio</span></h1>
             </div>
         </div>
         <div class="container my-3 ">
@@ -161,26 +190,28 @@
             <div class="row  justify-content-between mb-100">
                 <div class="col-lg-6 col-md-6 col-sm-6 mb-sm-10">
                     <div class="sub-sec-title">
-                        <h1><span style="color: #8427E2;">IFS </span> Services Partner</h1>
-                        <h5>- A partnership with Tech Mahindra </h5>
+                        <h1 class="content-1"><span style="color: #8427E2;">IFS </span> Services Partner</h1>
+                        <h1 class="para" style="color:#001844">- A partnership with Tech Mahindra </h1>
                     </div>
                     <div class="content">
-                        <p>IFS is a robust ERP solution known for its comprehensive capabilities in asset management, project-driven operations, and scalability. Its strength lies in providing deep industry-specific solutions tailored to complex business needs.</p>
+                        <p class="para">IFS is a robust ERP solution known for its comprehensive capabilities in asset management, project-driven operations, and scalability. Its strength lies in providing deep industry-specific solutions tailored to complex business needs.</p>
                     </div>
 
-                    <!-- <a href="https://www.techmahindra.com/" target="_blank" rel="noopener noreferrer" class="pt-4">IFS Silver partner<br> - A Tech Mahindra partnership</a> -->
+                
                     <div class="bg-light rounded-4 text-dark d-inline-flex justify-content-between">
-                        <a href="ifs_v2.php" class="rounded-3 text-dark text-decoration-none  learn-more ">
+                        <button class="rounded-5 text-dark p-2 " style=" border:none;background-color:yellow;">
                             <span class="float-end fw-bold">Learn More</span>
-                            <img src="assets/images/send_yellow_arrow.png" alt="phone_img" class="img-fluid me-2">
-                        </a>
+                            <img src="assets/arrow.png" alt="phone_img" class="img-fluid me-2">
+                        </button>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6  col-sm-6 d-flex flex-column  align-items-end">
-                    <a href="ifs_v2.php" class="" target="_blank" rel="noopener noreferrer">
                         <img src="assets/IFS.png" alt="IFS_logo_2021" class="img-fluid">
-                    </a>
                 </div>
+            </div>
+            <!-- Portofolia center img -->
+            <div>
+            <img src="assets/high.png" alt="phone_img" class="img-fluid me-2">
             </div>
 
             <!-- Second Row -->
@@ -188,9 +219,7 @@
                 <!-- Odoo Logo aligned to bottom of the left column -->
                 <!-- <div class="col-lg-6 d-flex flex-column justify-content-end"> -->
                 <div class="col-lg-6 col-md-6  col-sm-6 d-flex flex-column justify-content-center align-items-center mt-sm-10 order-2 order-md-1 ">
-                    <a href="odoo_v2.php" target="_blank" rel="noopener noreferrer">
                         <img class="w-75 " src="assets/Odoo.png" alt="Odoo_logo">
-                    </a>
                 </div>
 
                 <!-- Paragraph aligned to bottom of the right column -->
@@ -199,13 +228,13 @@
 
                         <div class="content">
                             <div class="sub-sec-title">
-                                <h1 class="align-items-start ">
+                                <span class="align-items-start content-1">
                                     <span style="color:#9C5789;">Odoo </span>
                                     Official Partner
-                                </h1>
+                                </span>
                             </div>
 
-                            <p>We specialize in implementing Odoo, an ideal solution for small to mid-sized companies seeking a flexible and cost-effective ERP system. Odoo’s modular approach allows businesses to scale and customize functionalities as they grow.</p>
+                            <p class="para">We specialize in implementing Odoo, an ideal solution for small to mid-sized companies seeking a flexible and cost-effective ERP system. Odoo’s modular approach allows businesses to scale and customize functionalities as they grow.</p>
                         </div>
                         <div class="bg-light rounded-4 text-dark d-inline-flex justify-content-between ">
                             <button class="rounded-3 text-dark text-decoration-none  learn-more">
@@ -219,6 +248,9 @@
         </div>
     </section>
 </main>
+
+
+
 <footer class="footer mt-4  py-4 footer">
     <div class="container">
         <div class="row justify-content-center">
