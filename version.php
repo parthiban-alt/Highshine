@@ -150,48 +150,49 @@
             </section>
 
     </section>
+    
     <div class="container">
-    <!-- First Row -->
-    <div class="row ">
-        <div class="col-lg-7 col-md-6 col-sm-6 mb-sm-10 order-1">
-        <div class="container-1">
-        <div class="center">
-        <div class="circle consult" style="--color: #FFB606;">Consult
-            <div class="info">
-                <h2>Consult</h2>
-                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
-            </div>
-        </div>
-        <div class="circle ideate" style="--color: #313861;">Ideate
-            <div class="info">
-                <h2>Ideate</h2>
-                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
-            </div>
-        </div>
-        <div class="circle implement" style="--color: #FFC420;">Implement
-            <div class="info">
-                <h2>Implement</h2>
-                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
-            </div>
-        </div>
-        <div class="circle support" style="--color: #001844;">Support
-            <div class="info">
-                <h2>Support</h2>
-                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
-            </div>
-        </div>
-        </div>
-    </div>
+        <!-- First Row -->
+        <div class="row ">
+            <div class="col-lg-7 col-md-6 col-sm-6 mb-sm-10   order-2 order-md-1">
+                <div class="contain-1">
+                    <div class="center">
+                        <div class="circle consult" style="--color: #FFB606;">Consult
+                            <div class="info">
+                                <h2>Consult</h2>
+                                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
+                            </div>
+                        </div>
+                        <div class="circle ideate" style="--color: #313861;">Ideate
+                            <div class="info">
+                                <h2>Ideate</h2>
+                                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
+                            </div>
+                        </div>
+                        <div class="circle implement" style="--color: #FFC420;">Implement
+                            <div class="info">
+                                <h2>Implement</h2>
+                                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
+                            </div>
+                        </div>
+                        <div class="circle support" style="--color: #001844;">Support
+                            <div class="info">
+                                <h2>Support</h2>
+                                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
    
-        </div>
-        <div class="col-lg-5 col-md-6 col-sm-6 d-flex flex-column align-items-end order-2">
-            <img src="assets/h-img.png" alt="h_img " class="img-fluid" style="width:100%;height:500px;">
+            </div>
+                <div class="col-lg-5 col-md-6 col-sm-6 d-flex flex-column align-items-end order-2 order-lg-2">
+                    <img src="assets/h-img.png" alt="h_img " class="img-fluid" style="width:100%;height:500px;">
+                </div>
         </div>
     </div>
-</div>
 
 
-    <section id="Portfolio">
+    <section id="Portfolio" class="Portfolio">
         <div class="row">
             <div class="section-title">
                 <h1 class="text-center text-uppercase content-1"style="color:#001844">Our <span class="yellow-font" style="color:#FFC420;" >Portfolio</span></h1>
@@ -223,7 +224,7 @@
             </div>
             <!-- Portofolia center img -->
             <div>
-            <img src="assets/high.png" alt="phone_img" class="img-fluid me-2">
+            <img src="assets/high.png" alt="phone_img" class="high-img img-fluid me-2">
             </div>
 
             <!-- Second Row -->
@@ -325,13 +326,13 @@
     <section class="news-and-update">
     <div class="row py-4">
         <h1 class="text-center text-uppercase content-1" style="color:#001844">
-            News<span class="yellow-font"> and</span><span> Updates </span>
+            News<span class="text-warning"> and</span><span> Updates </span>
         </h1>
     </div>
     <div class="container">
         <div class="row text-white pt-3 exp-count">
-            <div class="col-md-2 col-sm-4 align-items-center">
-                <img src="assets/news-1.png" class="news-img rounded-5" style="width:100%">
+            <div class="col-md-3 col-sm-4 align-items-center">
+                <img src="assets/news-1.png" class="news-1 rounded-5" >
             </div>
             <div class="col-md-6 col-sm-4 text-center position-relative">
                 <!-- Phone Image Container -->
@@ -343,11 +344,8 @@
                     <img src="assets/phone-inside.jpg" class="overlay-image">
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4 text-center">
-                <div>
-                    <h1 class="text-warning content-1">28<sup>+</sup></h1>
-                </div>
-                <p class="para">Million USD customer savings by process optimization</p>
+            <div class="col-md-3 col-sm-4 text-center">
+               <img src="assets/news-2.jpg" class="news-2 rounded-5"  >
             </div>
         </div>
     </div>
@@ -357,7 +355,7 @@
 
 
 
-<footer class="footer">
+<footer class="footer pt-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4 col-sm-12 ">

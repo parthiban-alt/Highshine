@@ -32,10 +32,12 @@
     font-size: 25px;
     font-style: normal;
 }
+
+/* phone image in news and update image */
 .phone-container {
     position: relative;
     display: inline-block;
-    width: 80%; /* Adjust based on requirement */
+    width: 90%; /* Adjust based on requirement */
     height: 500px;
 }
 
@@ -55,8 +57,9 @@
     border-radius: 10px; /* Optional: if the screen has rounded corners */
 }
 
+/* circles image */
 
-.container-1 {
+.contain-1 {
     position: relative;
     width: 100%;
     height:100%;
@@ -108,6 +111,19 @@
 .ideate { top: 150px; left: 260px; border-color: #313861; color: #001844; }
 .implement { top: 70px; left: 350px; background-color: #FFC420; color: #001844; border: none; }
 .support { top: 90px; left: 150px; background-color: #001844; color: white; border: none; }
+/* news snd update image */
+.news-and-update .news-2{
+    width:100%;
+    margin-top: 150px;
+}
+.news-and-update .news-1{
+    width:100%;
+    margin-top: 150px;
+    
+}
+
+
+/* Screen in 1440px in large screen */
 @media screen and (max-width: 1440px){
     .hero{
         background: url('assets/hero-img.png')no-repeat center center/cover;width: 100%; height:  100vh;
@@ -116,13 +132,15 @@
         width:500px;
         height:auto;
     }
+  
    
 }
-.news-and-upadate .news-img{
-   margin-top: 100px;
-}
+
 /* Mobile screen */
 @media screen  and (max-width: 500px){
+    .container .top-header{
+        display :none;
+    }
     .hero {
         background-image: url('assets/hero-img.png');
         background-repeat: no-repeat;
@@ -155,5 +173,76 @@
     padding-left: 40px;
     padding-top: 35px;
 }
+.news-and-update .news-2{
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.news-and-update .news-1{
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.Portfolio .high-img{
+        height: 150px;
+        width: 100%;
+}
+
+/* circles image */
+
+.contain-1 {
+    position: relative;
+    width: 100%;
+    height:100%;
+}
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-color: var(--color);
+    border-radius: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: start;
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.circle:hover .info {
+    display: flex;
+}
+.circle:hover {
+    opacity: 1;
+}
+.center:hover .circle:not(:hover) {
+    opacity: 0;
+}
+/* Circle positions and colors */
+.consult { top: 170px; left: 40px; border-color: #FFB606; color: #001844; }
+.ideate { top: 170px; left: 170px; border-color: #313861; color: #001844; }
+.implement { top: 100px; left: 215px; background-color: #FFC420; color: #001844; border: none; }
+.support { top: 125px; left: 100px; background-color: #001844; color: white; border: none; }
+
     
 }
