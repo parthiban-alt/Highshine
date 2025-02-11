@@ -79,7 +79,7 @@
 </nav>
 
 <main>
-<section id="hero" class="hero" >
+<section class="hero">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-light d-flex flex-column justify-content-center">
@@ -100,12 +100,13 @@
                     </button>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6 d-flex justify-content-center">
-                <img src="assets/man.png" alt="slider1" class="responsive-img" id="hero-man" style="width:500px;height:500px;margin-top:60px;">
-            </div>
+             <div class="col-md-6 col-sm-6 d-flex justify-content-center">
+                <img src="assets/man.png" alt="slider1" class="responsive-img" id="hero-man" style="width:100%;height:100%;padding-top:20px;">
+             </div>
         </div>
     </div>
 </section>
+
 <section class="experience exp-bg" id="experience">
         <div class="container mt-5">
             <div class="row">
@@ -124,7 +125,6 @@
             <section class="experiance-1" id="experiance-1"  style="background: url('assets/experiance.png') no-repeat center center/cover; width:100%; height: auto;padding-top:70px;padding-bottom:10px;">
                     <div class="row text-white justify-content-end ">
                         <div class="col-md-6">
-                            <!-- <p style="font-size: 40px; line-height: 1; ">We Bring In The Industry And<br> Technology Experience. We Have<br> Partnered With <span class="yellow-font">BEST ERPs</span>.</p> -->
                             <h6 class="content-1 mb-5 " id="exp-text">We leverage our industry expertiseTo deliver tailored software solutionsThat drive<span class="text-warning"> your growth.</span></h6>
                         </div>
                     </div>
@@ -241,6 +241,76 @@
                                 <span class="float-end fw-bold">Learn More</span>
                                 <img src="assets/phone.png" alt="phone_img" class="img-fluid me-2">
                             </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="careers" class="careers mt-5 pt-3">
+        <div class="container  set_one">
+
+            <div class="row gx-7 ">
+                <div class="col-lg-6 col-md-6  col-sm-12 ">
+                    <h1 class="content-1 " style="color:#001844">CAREERS</h1>
+                    <p class="para">
+                    Our Careers page is more than a gateway to opportunities; it's an invitation to join a dynamic team of forward-thinkers, problem solvers, and tech aficionados. Whether you're a seasoned professional or a fresh graduate, here, you'll find an environment that nurtures your skills, fuels your passion, and propels you toward excellence.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6  col-sm-12  d-flex  ">
+                    <img src="assets/career-1.png" class="img-fluid rounded-5 w-100" alt="careers_img1">
+                </div>
+            </div>
+
+            <div class="row  gx-7">
+                <div class="col-lg-6 col-md-6  col-sm-12 d-flex justify-content-center mt-lg-0 mt-2  order-2 order-md-1">
+                    <img src="assets/career-2.png" class="img-fluid " style="width:100%;height:100%;border-radius:30px;" alt="careers_img2">
+                </div>
+                <div class="col-lg-6 col-md-6  col-sm-12 d-flex justify-content-center  mt-5  order-1 order-md-2">
+                    <p class="para">
+                            Embark on a journey where every line of code is a step toward progress, and every tech enthusiast is a valued contributor. At HighShine we don't just offer jobs; we cultivate careers that thrive on innovation, collaboration, and continuous learning.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="py-4 d-flex justify-content-center align-items-center founders mt-5">
+        <div class="container py-3">
+            <div class="sec-title">
+                <h1 class="text-center text-warning">FOUNDERS</h1>
+            </div>
+
+            <div class="row  my-2 g-4">
+                <div class="col-md-6">
+                    <div class="row g-0 justify-content-center">
+                        <div class="col-md-12 col-lg-4 d-flex justify-content-center align-items-center ">
+                            <img src="assets/founders-1.png" width="150" style="border: 3px solid #ffb606;" class="img-fluid rounded-circle " alt="direct_img">
+                        </div>
+                        <div class="col-lg-8 col-md-12 content">
+                            <h3 class="text-warning">Mr. Hari Gautham Somasundaram</h3>
+                            <h6 class="text-warning">CEO and Global Business Head</h6>
+                            <p class=" text-white text-justify">IFS as a product, is one of the best orchestrated ERP systems in the market. Highshine ensures its customers effectively digitize &amp; optimize their business by seamless adoption of IFS.</p>
+                            <a>
+                                <img src="assets/linkedin.png" class="me-2" alt="linkedin_yellow">
+                                Linkedin
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 fcol">
+                    <div class="row g-0 justify-content-center content">
+                        <div class="col-md-12 col-lg-4   d-flex justify-content-center align-items-center ">
+                            <img src="assets/founders-2.png" width="150" style="border: 3px solid #ffb606;" class="img-fluid rounded-circle" alt="direct_img">
+                        </div>
+                        <div class="col-lg-8 col-md-12 content">
+                            <h3 class="yellow-font">Mr. Surendar Subramani</h3>                            
+                            <h6 class="">Co-founder and Global Delivery Head</h6>
+                            <p class=" text-white text-justify">IFS ERP is built on a foundation of adaptability. Unlike traditional ERP systems that might require extensive customization, IFS is designed to embrace change effortlessly.</p>
+                            <a>
+                                <img src="assets/linkedin.png" class="me-2" alt="linkedin_yellow">
+                                Linkedin
+                            </a>
                         </div>
                     </div>
                 </div>
