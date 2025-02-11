@@ -150,29 +150,41 @@
             </section>
 
     </section>
-    <div class="container my-3">
+    <div class="container">
     <!-- First Row -->
-    <div class="row " style="margin-top:20px;">
-        <div class="col-lg-6 col-md-6 col-sm-6 mb-sm-10">
-            <svg width="100%" height="372" viewBox="0 0 682 332" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- First Circle -->
-                <circle cx="110.183" cy="211.351" r="107.178" stroke="#FFB606" stroke-width="6.00997"/>
-                <text x="110.183" y="211.351" text-anchor="middle" alignment-baseline="middle" font-size="20" fill="#001844" font-weight="bold">Consult</text>
-
-                <!-- Second Circle -->
-                <path d="M540.897 220.366C540.897 280.137 492.886 328.545 433.719 328.545C374.552 328.545 326.542 280.137 326.542 220.366C326.542 160.594 374.552 112.186 433.719 112.186C492.886 112.186 540.897 160.594 540.897 220.366Z" stroke="#313861" stroke-width="6.00997"/>
-                <text x="433.719" y="220.366" text-anchor="middle" alignment-baseline="middle" font-size="20" fill="#001844" font-weight="bold">Ideate</text>
-
-                <!-- Third Circle -->
-                <circle cx="570.947" cy="110.183" r="110.183" fill="#FFC420"/>
-                <text x="570.947" y="110.183" text-anchor="middle" alignment-baseline="middle" font-size="20" fill="#001844" font-weight="bold">Implement</text>
-
-                <!-- Fourth Circle -->
-                <circle cx="261.935" cy="151.752" r="110.684" fill="#001844"/>
-                <text x="261.935" y="151.752" text-anchor="middle" alignment-baseline="middle" font-size="20" fill="white" font-weight="bold">Support</text>
-            </svg>
+    <div class="row ">
+        <div class="col-lg-7 col-md-6 col-sm-6 mb-sm-10 order-1">
+        <div class="container">
+        <div class="center">
+        <div class="circle consult" style="--color: #FFB606;">Consult
+            <div class="info">
+                <h2>Consult</h2>
+                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
+            </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 d-flex flex-column align-items-end">
+        <div class="circle ideate" style="--color: #313861;">Ideate
+            <div class="info">
+                <h2>Ideate</h2>
+                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
+            </div>
+        </div>
+        <div class="circle implement" style="--color: #FFC420;">Implement
+            <div class="info">
+                <h2>Implement</h2>
+                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
+            </div>
+        </div>
+        <div class="circle support" style="--color: #001844;">Support
+            <div class="info">
+                <h2>Support</h2>
+                <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+   
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-6 d-flex flex-column align-items-end order-2">
             <img src="assets/h-img.png" alt="h_img " class="img-fluid" style="width:100%;height:500px;">
         </div>
     </div>
@@ -180,7 +192,7 @@
 
 
     <section id="Portfolio">
-        <div class="row py-2">
+        <div class="row">
             <div class="section-title">
                 <h1 class="text-center text-uppercase content-1"style="color:#001844">Our <span class="yellow-font" style="color:#FFC420;" >Portfolio</span></h1>
             </div>
@@ -198,14 +210,14 @@
                     </div>
 
                 
-                    <div class="bg-light rounded-4 text-dark d-inline-flex justify-content-between">
-                        <button class="rounded-5 text-dark p-2 " style=" border:none;background-color:yellow;">
+                    <div class="bg-light mb-4 rounded-4 text-dark d-inline-flex justify-content-between">
+                        <button class="rounded-3 text-dark px-4 py-2 " style=" border:none;background-color:orange;">
                             <span class="float-end fw-bold">Learn More</span>
                             <img src="assets/arrow.png" alt="phone_img" class="img-fluid me-2">
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6  col-sm-6 d-flex flex-column  align-items-end">
+                <div class="col-lg-6 col-md-6 col-sm-6 d-flex flex-column  align-items-center">
                         <img src="assets/IFS.png" alt="IFS_logo_2021" class="img-fluid">
                 </div>
             </div>
@@ -215,7 +227,7 @@
             </div>
 
             <!-- Second Row -->
-            <div class="row  justify-content-between mt-50">
+            <div class="row  justify-content-between mt-5">
                 <!-- Odoo Logo aligned to bottom of the left column -->
                 <!-- <div class="col-lg-6 d-flex flex-column justify-content-end"> -->
                 <div class="col-lg-6 col-md-6  col-sm-6 d-flex flex-column justify-content-center align-items-center mt-sm-10 order-2 order-md-1 ">
@@ -225,19 +237,15 @@
                 <!-- Paragraph aligned to bottom of the right column -->
                 <div class="col-lg-6 col-md-6  col-sm-6 mt-50 order-1 order-md-2">
                     <div class=" d-flex flex-column  align-items-end ">
-
                         <div class="content">
-                            <div class="sub-sec-title">
                                 <span class="align-items-start content-1">
                                     <span style="color:#9C5789;">Odoo </span>
                                     Official Partner
                                 </span>
-                            </div>
-
                             <p class="para">We specialize in implementing Odoo, an ideal solution for small to mid-sized companies seeking a flexible and cost-effective ERP system. Odoo’s modular approach allows businesses to scale and customize functionalities as they grow.</p>
                         </div>
-                        <div class="bg-light rounded-4 text-dark d-inline-flex justify-content-between ">
-                            <button class="rounded-3 text-dark text-decoration-none  learn-more">
+                        <div class="bg-light rounded-4 text-dark d-inline-flex justify-content-between mb-5" style="margin-right:250px;">
+                            <button class="rounded-3 text-dark  learn-more px-3 py-2" style="border:none;background-color:orange;">
                                 <span class="float-end fw-bold">Learn More</span>
                                 <img src="assets/phone.png" alt="phone_img" class="img-fluid me-2">
                             </button>
@@ -248,7 +256,7 @@
         </div>
     </section>
     <section id="careers" class="careers mt-5 pt-3">
-        <div class="container  set_one">
+        <div class="container">
 
             <div class="row gx-7 ">
                 <div class="col-lg-6 col-md-6  col-sm-12 ">
@@ -258,13 +266,13 @@
                     </p>
                 </div>
                 <div class="col-lg-6 col-md-6  col-sm-12  d-flex  ">
-                    <img src="assets/career-1.png" class="img-fluid rounded-5 w-100" alt="careers_img1">
+                    <img src="assets/career-1.png" class="img-fluid rounded-5" alt="careers_img1">
                 </div>
             </div>
 
             <div class="row  gx-7">
                 <div class="col-lg-6 col-md-6  col-sm-12 d-flex justify-content-center mt-lg-0 mt-2  order-2 order-md-1">
-                    <img src="assets/career-2.png" class="img-fluid " style="width:100%;height:100%;border-radius:30px;" alt="careers_img2">
+                    <img src="assets/career-2.png" class="img-fluid rounded-5" alt="careers_img2">
                 </div>
                 <div class="col-lg-6 col-md-6  col-sm-12 d-flex justify-content-center  mt-5  order-1 order-md-2">
                     <p class="para">
@@ -277,51 +285,76 @@
     </section>
     <section class="py-4 d-flex justify-content-center align-items-center founders mt-5">
         <div class="container py-3">
-            <div class="sec-title">
-                <h1 class="text-center text-warning">FOUNDERS</h1>
-            </div>
-
-            <div class="row  my-2 g-4">
-                <div class="col-md-6">
+                <h1 class="content-1 text-center text-warning">FOUNDERS</h1>
+            <div class="row  my-2 g-4 ">
+                <div class="col-md-6 border-end border-1">
                     <div class="row g-0 justify-content-center">
                         <div class="col-md-12 col-lg-4 d-flex justify-content-center align-items-center ">
                             <img src="assets/founders-1.png" width="150" style="border: 3px solid #ffb606;" class="img-fluid rounded-circle " alt="direct_img">
                         </div>
-                        <div class="col-lg-8 col-md-12 content">
-                            <h3 class="text-warning">Mr. Hari Gautham Somasundaram</h3>
-                            <h6 class="text-warning">CEO and Global Business Head</h6>
-                            <p class=" text-white text-justify">IFS as a product, is one of the best orchestrated ERP systems in the market. Highshine ensures its customers effectively digitize &amp; optimize their business by seamless adoption of IFS.</p>
-                            <a>
-                                <img src="assets/linkedin.png" class="me-2" alt="linkedin_yellow">
+                        <div class="col-lg-8 col-md-12 content" style="padding-left:30px;">
+                            <h3 class="content-1 text-warning">Mr. Hari Gautham Somasundaram</h3>
+                            <h6 class="founders-text text-light">CEO  Global Business Head</h6>
+                            <p class="para-text text-white text-justify" style="display:flex;align-items:justify;">IFS as a product, is one of the best orchestrated ERP systems in the market. Highshine ensures its customers effectively digitize &amp; optimize their business by seamless adoption of IFS.</p>
+                            <p class="text-warning">
+                                <img src="assets/linkedin.png" class="me-2">
                                 Linkedin
-                            </a>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 fcol">
-                    <div class="row g-0 justify-content-center content">
+                    <div class="row g-0 justify-content-center content" style="padding-left:30px;">
                         <div class="col-md-12 col-lg-4   d-flex justify-content-center align-items-center ">
                             <img src="assets/founders-2.png" width="150" style="border: 3px solid #ffb606;" class="img-fluid rounded-circle" alt="direct_img">
                         </div>
                         <div class="col-lg-8 col-md-12 content">
-                            <h3 class="yellow-font">Mr. Surendar Subramani</h3>                            
-                            <h6 class="">Co-founder and Global Delivery Head</h6>
-                            <p class=" text-white text-justify">IFS ERP is built on a foundation of adaptability. Unlike traditional ERP systems that might require extensive customization, IFS is designed to embrace change effortlessly.</p>
-                            <a>
-                                <img src="assets/linkedin.png" class="me-2" alt="linkedin_yellow">
+                            <h3 class="content-1 text-warning">Mr. Surendar Subramani </h3>                            
+                            <h6 class="founders-text text-light">Co-founder and Global Delivery Head</h6>
+                            <p class=" text-white text-justify" style="display:flex;align-items:justify;">IFS ERP is built on a foundation of adaptability. Unlike traditional ERP systems that might require extensive customization, IFS is designed to embrace change effortlessly.</p>
+                            <p class="text-warning">
+                                <img src="assets/linkedin.png" class="me-2">
                                 Linkedin
-                            </a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="news-and-update">
+    <div class="row py-4">
+        <h1 class="text-center text-uppercase content-1" style="color:#001844">
+            News<span class="yellow-font" style="color:#FFC420;"> and</span><span> Updates </span>
+        </h1>
+    </div>
+    <div class="container">
+        <div class="row text-white pt-3 exp-count">
+            <div class="col-md-2 col-sm-4 align-items-center">
+                <img src="assets/news-1.png" class="news-img rounded-5" style="width:200px;height:200px;margin-left:70px;margin-top:50px;">
+            </div>
+            <div class="col-md-6 col-sm-4 text-center position-relative">
+                <!-- Phone Image Container -->
+                <div class="phone-container">
+                    <img src="assets/phone-1.png" style="width:100%;height:500px;" class="phone-image">
+                    <!-- Overlay Image -->
+                    <img src="assets/phone-.jpg" class="overlay-image">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 text-center">
+                <div>
+                    <h1 class="text-warning content-1">28<sup>+</sup></h1>
+                </div>
+                <p class="para">Million USD customer savings by process optimization </p>
+            </div>
+        </div>
+    </div>
+</section>
 </main>
 
 
 
-<footer class="footer mt-4  py-4 footer">
+<footer class="footer">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-4 col-sm-12 ">
