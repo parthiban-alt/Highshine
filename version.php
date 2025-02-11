@@ -154,7 +154,7 @@
     <!-- First Row -->
     <div class="row ">
         <div class="col-lg-7 col-md-6 col-sm-6 mb-sm-10 order-1">
-        <div class="container">
+        <div class="container-1">
         <div class="center">
         <div class="circle consult" style="--color: #FFB606;">Consult
             <div class="info">
@@ -325,31 +325,34 @@
     <section class="news-and-update">
     <div class="row py-4">
         <h1 class="text-center text-uppercase content-1" style="color:#001844">
-            News<span class="yellow-font" style="color:#FFC420;"> and</span><span> Updates </span>
+            News<span class="yellow-font"> and</span><span> Updates </span>
         </h1>
     </div>
     <div class="container">
         <div class="row text-white pt-3 exp-count">
             <div class="col-md-2 col-sm-4 align-items-center">
-                <img src="assets/news-1.png" class="news-img rounded-5" style="width:200px;height:200px;margin-left:70px;margin-top:50px;">
+                <img src="assets/news-1.png" class="news-img rounded-5" style="width:100%">
             </div>
             <div class="col-md-6 col-sm-4 text-center position-relative">
                 <!-- Phone Image Container -->
                 <div class="phone-container">
-                    <img src="assets/phone-1.png" style="width:100%;height:500px;" class="phone-image">
-                    <!-- Overlay Image -->
-                    <img src="assets/phone-.jpg" class="overlay-image">
+                    <!-- Phone Outer Image -->
+                    <img src="assets/phone-1.png" class="phone-image">
+
+                    <!-- Overlay Image Inside the Phone -->
+                    <img src="assets/phone-inside.jpg" class="overlay-image">
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 text-center">
                 <div>
                     <h1 class="text-warning content-1">28<sup>+</sup></h1>
                 </div>
-                <p class="para">Million USD customer savings by process optimization </p>
+                <p class="para">Million USD customer savings by process optimization</p>
             </div>
         </div>
     </div>
 </section>
+
 </main>
 
 
@@ -395,7 +398,7 @@
                         <li class="text-warning"><a class="text-decoration-none text-white">IFS</a></li>
                         <li class="text-warning"><a class="text-decoration-none text-white">Odoo</a></li>
                         <li class="text-warning"><a class="text-decoration-none text-white">About Us</a></li>
-                        <li class="text-warning"><a class="text-decoration-none text-white"">Careers</a></li>
+                        <li class="text-warning"><a class="text-decoration-none text-white">Careers</a></li>
                     </ul>
                 </div>
             </div>
