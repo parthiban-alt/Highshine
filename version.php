@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Highshine-version-2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="version.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
@@ -154,29 +154,33 @@
     <div class="container">
         <!-- First Row -->
         <div class="row ">
-            <div class="col-lg-7 col-md-6 col-sm-6 mb-sm-10   order-2 order-md-1">
+            <div class="col-md-6 col-sm-6  order-2 order-md-1">
                 <div class="contain-1">
                     <div class="center">
                         <div class="circle consult" style="--color: #FFB606;">Consult
-                            <div class="info">
+                            <div class="info" style="text-align:justify;">
+                                <i class="fas fa-less-than"></i>
                                 <h2>Consult</h2>
                                 <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
                             </div>
                         </div>
                         <div class="circle ideate" style="--color: #313861;">Ideate
-                            <div class="info">
-                                <h2>Ideate</h2>
+                            <div class="info" style="text-align:justify;">
+                                <i class="fas fa-less-than"></i>
+                                <h2 >Ideate</h2>
                                 <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
                             </div>
                         </div>
                         <div class="circle implement" style="--color: #FFC420;">Implement
-                            <div class="info">
+                            <div class="info" style="text-align:justify;">
+                              <i class="fas fa-less-than"></i>
                                 <h2>Implement</h2>
                                 <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
                             </div>
                         </div>
                         <div class="circle support" style="--color: #001844;">Support
-                            <div class="info">
+                            <div class="info" style="text-align:justify;">
+                                <i class="fas fa-less-than"></i>
                                 <h2>Support</h2>
                                 <p>We analyze your business processes to identify key challenges and areas for improvement.</p>
                             </div>
@@ -185,8 +189,9 @@
                 </div>
    
             </div>
-                <div class="col-lg-5 col-md-6 col-sm-6 d-flex flex-column align-items-end order-2 order-lg-2">
-                    <img src="assets/h-img.png" alt="h_img " class="img-fluid" style="width:100%;height:500px;">
+                
+                <div class="col-md-6 col-sm-6 order-2 order-md-2">
+                    <img src="assets/hi.gif" style="width:100%;height:500px;">
                 </div>
         </div>
     </div>
@@ -296,7 +301,7 @@
                         <div class="col-lg-8 col-md-12 content" style="padding-left:30px;">
                             <h3 class="content-1 text-warning">Mr. Hari Gautham Somasundaram</h3>
                             <h6 class="founders-text text-light">CEO  Global Business Head</h6>
-                            <p class="para-text text-white text-justify" style="display:flex;align-items:justify;">IFS as a product, is one of the best orchestrated ERP systems in the market. Highshine ensures its customers effectively digitize &amp; optimize their business by seamless adoption of IFS.</p>
+                            <p class="para-text text-white text-justify" style="display:flex;align-items:justify;font-weight:normal">IFS as a product, is one of the best orchestrated ERP systems in the market. Highshine ensures its customers effectively digitize &amp; optimize their business by seamless adoption of IFS.</p>
                             <p class="text-warning">
                                 <img src="assets/linkedin.png" class="me-2">
                                 Linkedin
@@ -312,11 +317,43 @@
                         <div class="col-lg-8 col-md-12 content">
                             <h3 class="content-1 text-warning">Mr. Surendar Subramani </h3>                            
                             <h6 class="founders-text text-light">Co-founder and Global Delivery Head</h6>
-                            <p class=" text-white text-justify" style="display:flex;align-items:justify;">IFS ERP is built on a foundation of adaptability. Unlike traditional ERP systems that might require extensive customization, IFS is designed to embrace change effortlessly.</p>
+                            <p class="para-text text-white text-justify" style="display:flex;align-items:justify;font-weight:normal;">IFS ERP is built on a foundation of adaptability. Unlike traditional ERP systems that might require extensive customization, IFS is designed to embrace change effortlessly.</p>
                             <p class="text-warning">
                                 <img src="assets/linkedin.png" class="me-2">
                                 Linkedin
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-4 d-flex justify-content-center align-items-center Board-members">
+        <div class="container py-3">
+                <h1 class="content-1 text-center"style="color: #001844" >Board Members and Advisory</h1>
+            <div class="row  my-2 g-4 ">
+                <div class="col-md-6 border-end border-2">
+                    <div class="row g-0 justify-content-center">
+                        <div class="col-md-12 col-lg-4 d-flex justify-content-center align-items-center ">
+                            <img src="assets/founders-1.png" width="150" style="border: 5px solid #001844" class="img-fluid rounded-circle " alt="direct_img">
+                        </div>
+                        <div class="col-lg-8 col-md-12 content" style="padding-left:30px;">
+                            <h3 class="board-1 "style="color: #001844" >Mr. Mohit Jagtap</h3>
+                            <h6 class="board-text"style="color: #001844" >Board member & Global business Partner</h6>
+                            <p class="para-text text-justify" style="display:flex;align-items:justify;">Change is constant. IFS ERP is based on the evergreen concept of adaptability. It gives you 360° view of your business through reports and easy navigations from one page to another.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 fcol">
+                    <div class="row g-0 justify-content-center content" style="padding-left:30px;">
+                        <div class="col-md-12 col-lg-4   d-flex justify-content-center align-items-center ">
+                            <img src="assets/founders-2.png" width="150" style="border: 5px solid #001844" class="img-fluid rounded-circle" alt="direct_img">
+                        </div>
+                        <div class="col-lg-8 col-md-12 content">
+                            <h3 class="board-1"style="color: #001844" >Mr. Mohit Jagtap</h3>                            
+                            <h6 class="board-text"style="color: #001844" >Board member & Global business Partner</h6>
+                            <p class="para-text text-justify" style="display:flex;align-items:justify;">Change is constant. IFS ERP is based on the evergreen concept of adaptability. It gives you 360° view of your business through reports and easy navigations from one page to another.</p>
                         </div>
                     </div>
                 </div>
@@ -331,25 +368,35 @@
     </div>
     <div class="container">
         <div class="row text-white pt-3 exp-count">
-            <div class="col-md-3 col-sm-4 align-items-center">
-                <img src="assets/news-1.png" class="news-1 rounded-5" >
-            </div>
-            <div class="col-md-6 col-sm-4 text-center position-relative">
-                <!-- Phone Image Container -->
-                <div class="phone-container">
-                    <!-- Phone Outer Image -->
-                    <img src="assets/phone-1.png" class="phone-image">
-
-                    <!-- Overlay Image Inside the Phone -->
-                    <img src="assets/phone-inside.jpg" class="overlay-image">
+            <!-- First Image -->
+            <div class="col-md-3 col-sm-4 order-lg-1 order-sm-1 align-items-center text-center">
+                <div>
+                    <img src="assets/news-1.png" class="news-1 rounded-5">
+                    <p class="para-text  mt-2 text-dark">This is a wider card with supporting text below as a natural lead-in to ...</p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-4 text-center">
-               <img src="assets/news-2.jpg" class="news-2 rounded-5"  >
+
+          <!-- Phone Image Container -->
+                <div class="col-md-6 col-sm-4 order-lg-2 order-sm-2 text-center position-relative">
+                    <div class="phone-container">
+                        <img src="assets/phone-1.png" class="phone-image">
+                        <img src="assets/phone-inside.jpg" class="overlay-image">
+                        <!-- Text inside the overlay image -->
+                        <div class="para-text overlay-text">This is a wider card with supporting text below as a natural lead-in to ...</div>
+                    </div>
+                </div>
+
+            <!-- Second Image -->
+            <div class="col-md-3 col-sm-4 order-lg-3 order-sm-3 text-center">
+                <div>
+                    <img src="assets/news-2.jpg" class="news-2 rounded-5">
+                    <p class="para-text mt-2 text-dark">This is a wider card with supporting text below as a natural lead-in to ...</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 </main>
 
