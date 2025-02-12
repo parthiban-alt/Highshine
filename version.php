@@ -299,8 +299,8 @@
                             <img src="assets/founders-1.png" width="150" style="border: 3px solid #ffb606;" class="img-fluid rounded-circle " alt="direct_img">
                         </div>
                         <div class="col-lg-8 col-md-12 content" style="padding-left:30px;">
-                            <h3 class="content-1 text-warning">Mr. Hari Gautham Somasundaram</h3>
-                            <h6 class="founders-text text-light">CEO  Global Business Head</h6>
+                            <h3 class="board-1 text-warning">Mr. Hari Gautham Somasundaram</h3>
+                            <h6 class="board-text text-light">CEO  Global Business Head</h6>
                             <p class="para-text text-white text-justify" style="display:flex;align-items:justify;font-weight:normal">IFS as a product, is one of the best orchestrated ERP systems in the market. Highshine ensures its customers effectively digitize &amp; optimize their business by seamless adoption of IFS.</p>
                             <p class="text-warning">
                                 <img src="assets/linkedin.png" class="me-2">
@@ -315,8 +315,8 @@
                             <img src="assets/founders-2.png" width="150" style="border: 3px solid #ffb606;" class="img-fluid rounded-circle" alt="direct_img">
                         </div>
                         <div class="col-lg-8 col-md-12 content">
-                            <h3 class="content-1 text-warning">Mr. Surendar Subramani </h3>                            
-                            <h6 class="founders-text text-light">Co-founder and Global Delivery Head</h6>
+                            <h3 class="board-1 text-warning">Mr. Surendar Subramani </h3>                            
+                            <h6 class="board-text text-light">Co-founder and Global Delivery Head</h6>
                             <p class="para-text text-white text-justify" style="display:flex;align-items:justify;font-weight:normal;">IFS ERP is built on a foundation of adaptability. Unlike traditional ERP systems that might require extensive customization, IFS is designed to embrace change effortlessly.</p>
                             <p class="text-warning">
                                 <img src="assets/linkedin.png" class="me-2">

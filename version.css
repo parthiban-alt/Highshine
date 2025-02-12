@@ -344,6 +344,12 @@
 .content-1{
     font-size: 33px;
 }
+.board-1{
+    font-size: 28px;
+  
+.board-text{
+    font-size: 18px;
+}
 .para{
     font-size: 17px;
 }
@@ -459,4 +465,5 @@
         }
 
     
+}
 }
